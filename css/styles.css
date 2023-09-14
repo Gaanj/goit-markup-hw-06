@@ -25,6 +25,23 @@ button {
 .container {
   padding: 0 16px;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .logol {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -274,7 +291,28 @@ ul {
 .button-l:focus {
   background-color: #404bbf;
 }
+@media (min-width: 320px){
+.features-container{
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  gap: 72px;
+}
+}
+.title-hlll{
+  margin: 0;
+}
+.psl{
+  margin: 0;
+}
+.features-li{
+  margin: 0;
+}
+.features{
 
+}
 /*================== modal ============== */
 .backdrop {
   position: fixed;
