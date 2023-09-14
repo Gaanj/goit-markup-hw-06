@@ -103,9 +103,17 @@
             d="M32 6.078c-1.19.522-2.458.868-3.78 1.036a6.523 6.523 0 0 0 2.886-3.626 13.11 13.11 0 0 1-4.16 1.588A6.574 6.574 0 0 0 22.154 3c-3.632 0-6.556 2.948-6.556 6.562 0 .52.044 1.02.152 1.496-5.454-.266-10.28-2.88-13.522-6.862a6.605 6.605 0 0 0-.898 3.316 6.57 6.57 0 0 0 2.914 5.452 6.479 6.479 0 0 1-2.964-.808v.072c0 3.188 2.274 5.836 5.256 6.446a6.548 6.548 0 0 1-1.72.216 5.8 5.8 0 0 1-1.242-.112c.85 2.598 3.262 4.508 6.13 4.57a13.182 13.182 0 0 1-8.134 2.798c-.538 0-1.054-.024-1.57-.09A18.469 18.469 0 0 0 10.064 29c12.072 0 18.672-10 18.672-18.668 0-.29-.01-.57-.024-.848A13.087 13.087 0 0 0 32 6.078z"
           />
         </symbol>
+        <symbol id="icon-menu-ico" viewBox="0 0 32 32">
+          <path
+            d="M4.799 8.001a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 0 1 0 3.2h-19.2a1.6 1.6 0 0 1-1.6-1.6zM4.799 16.001a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 0 1 0 3.2h-19.2a1.6 1.6 0 0 1-1.6-1.6z"
+          />
+          <path
+            stroke-width="1.333"
+            d="M5.466 24.001a.932.932 0 0 1 .933-.933h19.2a.932.932 0 1 1 0 1.866h-19.2a.932.932 0 0 1-.933-.933z"
+          />
+        </symbol>
         <symbol id="icon-check" viewBox="0 0 40 32">
           <path
-            fill="#2e2f42"
             d="M33.782 1.02a3.668 3.668 0 0 1 5.115.039 3.712 3.712 0 0 1 .135 5.141L19.454 30.817a3.674 3.674 0 0 1-4.074.914 3.675 3.675 0 0 1-1.226-.815L1.17 17.862A3.693 3.693 0 0 1-.001 15.22a3.714 3.714 0 0 1 1.077-2.682 3.664 3.664 0 0 1 4.1-.763 3.68 3.68 0 0 1 1.195.857l10.275 10.325 17.042-21.83c.031-.038.063-.074.098-.109h-.005z"
           />
         </symbol>
@@ -138,7 +146,87 @@
     </svg>
     <header class="page-header">
       <div class="container page-flex-container">
-        <nav class="navigation">
+        <div class="logo-container">
+          <a class="menu-logol" href="./index.html"
+            >Web<span class="logoll">Studio</span></a
+          >
+          <button class="menu-open-btn" type="button" data-menu-open>
+            <svg
+              class="form-open-ico"
+              width="16.8"
+              height="14.4"
+              aria-label="menu 0pen icon"
+            >
+              <use href="./images/form-icons.svg#icon-menu-ico"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="menu-container" data-menu>
+          <button class="menu-close-btn" type="button" data-menu-close>
+            <svg
+              class="form-close-ico"
+              width="8"
+              height="8"
+              aria-label="menu close icon"
+            >
+              <use href="./images/form-icons.svg#icon-close-form-0"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="menu-nav-ul">
+              <li class="menu-nav-li">
+                <a href="#studio-id" class="menu-nav-a">Studio</a>
+              </li>
+              <li class="menu-nav-li">
+                <a href="#portfolio-id" class="menu-nav-a">Portfolio</a>
+              </li>
+              <li class="menu-nav-li">
+                <a href="#contact-id" class="menu-nav-a">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address>
+            <ul class="menu-contact-ul">
+              <li class="menu-contact-li">
+                <a href="mailto:info@devstudio.com" class="menu-contact-a"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="menu-contact-li">
+                <a href="tel:+110001111111" class="menu-contact-a"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="icons-container">
+            <li class="icons">
+              <a class="icon-a" href="https://www.instagram.com"
+                ><svg class="instag" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-1"></use></svg
+              ></a>
+            </li>
+            <li class="icons">
+              <a class="icon-a" href="https://twitter.com/"
+                ><svg class="instag" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-2"></use></svg
+              ></a>
+            </li>
+            <li class="icons">
+              <a class="icon-a" href="https://www.facebook.com/"
+                ><svg class="instag" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-3"></use></svg
+              ></a>
+            </li>
+            <li class="icons">
+              <a class="icon-a" href="https://www.linkedin.com"
+                ><svg class="instag" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-4"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <nav class="navigation heder-tab-pc">
           <a class="logol" href="./index.html"
             >Web<span class="logoll">Studio</span></a
           >
@@ -148,7 +236,7 @@
             <li><a class="tabs" href="">Contacts</a></li>
           </ul>
         </nav>
-        <address class="contact">
+        <address class="contact heder-tab-pc">
           <ul class="contact-ul">
             <li>
               <a class="contact-li" href="mailto:info@devstudio.com"
@@ -165,13 +253,15 @@
       </div>
     </header>
     <main>
-      <section class="section-hero">
+      <section id="studio-id" class="section-hero">
         <div class="container">
           <h1 class="title-hl">
             Effective Solutions <br />
             for Your Business
           </h1>
-          <button type="button" class="button-l" data-modal-open >Order Service</button>
+          <button type="button" class="button-l" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="section-features">
@@ -229,7 +319,7 @@
           </ul>
         </div>
       </section>
-      <section class="section-team">
+      <section id="contact-id" class="section-team">
         <div class="container">
           <h2 class="title-hll">Our Team</h2>
           <ul class="team-li">
@@ -398,7 +488,7 @@
       </section>
       <section class="section-lv">
         <div class="container">
-          <h2 class="portfolio-title">Our Portfolio</h2>
+          <h2 id="portfolio-id" class="portfolio-title">Our Portfolio</h2>
           <ul class="porttfolio-ul">
             <li class="portfolio-li">
               <div class="product-box">
@@ -682,5 +772,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
