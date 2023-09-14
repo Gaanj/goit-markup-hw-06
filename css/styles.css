@@ -9,7 +9,7 @@ body {
 img {
   display: block;
 }
-button{
+button {
   cursor: pointer;
 }
 .page-header {
@@ -22,8 +22,8 @@ button{
   display: flex;
   justify-content: space-between;
 }
-.container{
-padding: 0 16px;
+.container {
+  padding: 0 16px;
 }
 .logol {
   color: #4d5ae5;
@@ -113,11 +113,11 @@ ul {
   transform: translate(-50%, -50%);
   background-color: #ffffff;
   padding-left: 16px;
-  padding-right: 24px; 
+  padding-right: 24px;
 }
-.fixing{
+.fixing {
   position: fixed;
-  width: 100%;
+  width: 320px;
   height: 100%;
 }
 .menu-close-btn {
@@ -129,7 +129,7 @@ ul {
   background-color: #fff;
 }
 .menu-close-btn:hover,
-.menu-close-btn:focus{
+.menu-close-btn:focus {
   background-color: #bfc0c4;
 }
 .menu-nav-ul {
@@ -149,23 +149,21 @@ ul {
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
-  text-transform: capitalize; 
-  color: #2E2F42;
-  }
-  .menu-nav-a:hover,
-  .menu-nav-a:focus{
-    color: #404BBF;
-  }
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
 .menu-contact-ul {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-bottom: 48px;
+  font-family: 'Roboto', sans-serif;
 }
 .menu-contact-li {
 }
 .menu-contact-a {
-
+  color: #2e2f42;
   text-decoration: none;
 }
 .icons {
@@ -180,6 +178,12 @@ ul {
 .instag {
   fill: #f4f4fd;
   line-height: 0;
+}
+.menu-contact-a:hover,
+.menu-contact-a:focus,
+.menu-nav-a:hover,
+.menu-nav-a:focus{
+  color: #404bbf;
 }
 .icon-a:hover,
 .icon-a:focus {
