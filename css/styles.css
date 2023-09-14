@@ -96,7 +96,7 @@ ul {
 }
 .menu-open-btn:hover,
 .menu-open-btn:focus {
-  background-color: aliceblue;
+  background-color: #bfc0c4;
 }
 .form-open-ico {
   display: inline-block;
@@ -124,6 +124,13 @@ ul {
   position: absolute;
   top: 24px;
   right: 24px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.menu-close-btn:hover,
+.menu-close-btn:focus{
+  background-color: #bfc0c4;
 }
 .menu-nav-ul {
   margin-top: 72px;
