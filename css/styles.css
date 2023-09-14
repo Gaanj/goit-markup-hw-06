@@ -18,25 +18,6 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.container {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 15px;
-}
-.navigation {
-  display: flex;
-  color: #2e2f42;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  align-items: center;
-  margin-top: 0;
-  margin-bottom: 0;
-}
 .logol {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -75,6 +56,27 @@ ul {
   align-items: center;
   gap: 40px;
 }
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+.navigation {
+  display: flex;
+  color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .tabs {
   position: relative;
   color: #434455;
