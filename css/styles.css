@@ -231,8 +231,6 @@ ul {
 .features-container {
   display: none;
 }
-.anten {
-}
 .title-hlll {
   margin-top: 0;
   margin-bottom: 0;
@@ -733,8 +731,8 @@ letter-spacing: 0.4px;
     letter-spacing: 0.32px;
   }
   .section-team{
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .team-li{
     flex-wrap: nowrap;
