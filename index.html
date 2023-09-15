@@ -105,11 +105,14 @@
         </symbol>
         <symbol id="icon-menu-ico" viewBox="0 0 32 32">
           <path
-            d="M4.799 8.001a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 0 1 0 3.2h-19.2a1.6 1.6 0 0 1-1.6-1.6zM4.799 16.001a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 0 1 0 3.2h-19.2a1.6 1.6 0 0 1-1.6-1.6z"
+            d="M4.799 8.001a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 0 1 0 3.2h-19.2a1.6 1.6 0 0 1-1.6-1.6z"
           />
           <path
             stroke-width="1.333"
             d="M5.466 24.001a.932.932 0 0 1 .933-.933h19.2a.932.932 0 1 1 0 1.866h-19.2a.932.932 0 0 1-.933-.933z"
+          />
+          <path
+            d="M4.799 16.001a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 0 1 0 3.2h-19.2a1.6 1.6 0 0 1-1.6-1.6z"
           />
         </symbol>
         <symbol id="icon-check" viewBox="0 0 40 32">
@@ -144,91 +147,9 @@
         </symbol>
       </defs>
     </svg>
-    <header class="page-header">
-      <div class="container page-flex-container">
-        <div class="logo-container">
-          <a class="menu-logol" href="./index.html"
-            >Web<span class="logoll">Studio</span></a
-          >
-          <button class="menu-open-btn" type="button" data-menu-open>
-            <svg
-              class="form-open-ico"
-              width="16.8"
-              height="14.4"
-              aria-label="menu 0pen icon"
-            >
-              <use href="./images/form-icons.svg#icon-menu-ico"></use>
-            </svg>
-          </button>
-        </div>
-        <div class="menu-container is-hidden fixing" data-menu>
-          <button class="form-close-btn" type="button" data-menu-close>
-            <svg
-            class="form-close-ico"
-            width="8"
-            height="8"
-            aria-label="modal close icon"
-          >
-            <use href="./images/form-icons.svg#icon-close-form-0"></use>
-          </svg>
-              <use href="./images/form-icons.svg#icon-close-form-0"></use>
-            </svg>
-          </button>
-          <nav>
-            <ul class="menu-nav-ul">
-              <li class="menu-nav-li">
-                <a href="#studio-id" class="menu-nav-a">Studio</a>
-              </li>
-              <li class="menu-nav-li">
-                <a href="#portfolio-id" class="menu-nav-a">Portfolio</a>
-              </li>
-              <li class="menu-nav-li">
-                <a href="#contact-id" class="menu-nav-a">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <address>
-            <ul class="menu-contact-ul">
-              <li class="menu-contact-li">
-                <a href="mailto:info@devstudio.com" class="menu-contact-a"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="menu-contact-li">
-                <a href="tel:+110001111111" class="menu-contact-a"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-          <ul class="icons-container">
-            <li class="icons">
-              <a class="icon-a" href="https://www.instagram.com"
-                ><svg class="instag" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram-1"></use></svg
-              ></a>
-            </li>
-            <li class="icons">
-              <a class="icon-a" href="https://twitter.com/"
-                ><svg class="instag" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter-2"></use></svg
-              ></a>
-            </li>
-            <li class="icons">
-              <a class="icon-a" href="https://www.facebook.com/"
-                ><svg class="instag" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook-3"></use></svg
-              ></a>
-            </li>
-            <li class="icons">
-              <a class="icon-a" href="https://www.linkedin.com"
-                ><svg class="instag" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin-4"></use></svg
-              ></a>
-            </li>
-          </ul>
-        </div>
-        <nav class="navigation heder-tab-pc">
+    <header class=" container page-header">
+      <div class="page-flex-container">
+        <nav class="navigation">
           <a class="logol" href="./index.html"
             >Web<span class="logoll">Studio</span></a
           >
@@ -238,7 +159,17 @@
             <li><a class="tabs" href="">Contacts</a></li>
           </ul>
         </nav>
-        <address class="contact heder-tab-pc">
+        <button class="mob-menu-open-btn" type="button" data-menu-open>
+          <svg
+            class="mob-menu-open-ico"
+            width="16.8"
+            height="16.8"
+            aria-label="modal close icon"
+          >
+            <use href="./images/form-icons.svg#icon-menu-ico"></use>
+          </svg>
+        </button>
+        <address class="contact">
           <ul class="contact-ul">
             <li>
               <a class="contact-li" href="mailto:info@devstudio.com"
@@ -266,7 +197,7 @@
           </button>
         </div>
       </section>
-      <section class="section-features">
+      <!--<section class="section-features">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="features">
@@ -488,9 +419,9 @@
           </ul>
         </div>
       </section>
-      <section class="section-lv">
+      <section id="portfolio-id" class="section-lv">
         <div class="container">
-          <h2 id="portfolio-id" class="portfolio-title">Our Portfolio</h2>
+          <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="porttfolio-ul">
             <li class="portfolio-li">
               <div class="product-box">
@@ -608,9 +539,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section>-->
     </main>
-    <footer class="footer-set">
+    <!--<footer class="footer-set">
       <div class="container footer-container">
         <div class="logo-container">
           <a class="logo-footer" href="./index.html"
@@ -673,8 +604,9 @@
           </form>
         </div>
       </div>
-    </footer>
-    <div class="backdrop is-hidden" data-modal>
+    </footer> -->
+    <!-- ============================== Modal window ============================== -->
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="form-close-btn" type="button" data-modal-close>
           <svg
@@ -772,6 +704,66 @@
           <button class="modal-submit" type="submit">Send</button>
         </form>
       </div>
+    </div> -->
+    <!-- ========================= Mobile Menu ================================ -->
+    <div class="mobile-menu is-hidden" data-menu>
+      <button class="menu-close-btn" type="button" data-menu-close>
+        <svg
+          class="mob-menu-ico"
+          width="8"
+          height="8"
+          aria-label="menu close icon"
+        >
+          <use href="./images/form-icons.svg#icon-close-form-0"></use>
+        </svg>
+      </button>
+      <nav class="mob-nav">
+        <ul class="mob-ul">
+          <li><a class="mob-tab" href="./index.html">Studio</a></li>
+          <li><a class="mob-tab" href="">Portfolio</a></li>
+          <li><a class="mob-tab" href="">Contacts</a></li>
+        </ul>
+      </nav>
+      <address class="mob-contact">
+        <ul class="mob-contact-ul">
+          <li>
+            <a class="mob-contact-a" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li>
+            <a class="mob-contact-a" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="mob-icons-container">
+        <li class="mob-icons">
+          <a class="mob-icon-a" href="https://www.instagram.com"
+            ><svg class="mob-instag" width="16" height="16">
+              <use href="./images/icons.svg#icon-instagram-1"></use></svg
+          ></a>
+        </li>
+        <li class="mob-icons">
+          <a class="mob-icon-a" href="https://twitter.com/"
+            ><svg class="mob-instag" width="16" height="16">
+              <use href="./images/icons.svg#icon-twitter-2"></use></svg
+          ></a>
+        </li>
+        <li class="mob-icons">
+          <a class="mob-icon-a" href="https://www.facebook.com/"
+            ><svg class="mob-instag" width="16" height="16">
+              <use href="./images/icons.svg#icon-facebook-3"></use></svg
+          ></a>
+        </li>
+        <li class="mob-icons">
+          <a class="mob-icon-a" href="https://www.linkedin.com"
+            ><svg class="mob-instag" width="16" height="16">
+              <use href="./images/icons.svg#icon-linkedin-4"></use></svg
+          ></a>
+        </li>
+      </ul>
     </div>
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
