@@ -459,6 +459,8 @@ ul {
   .container {
     width: 320 px;
     padding: 0 16px;
+    margin-left: auto;
+  margin-right: auto;
   }
   .section-hero {
     padding-top: 72px;
@@ -466,21 +468,25 @@ ul {
   .title-hl {
     width: 288px;
   }
+  @media screen and (min-resolution: 192dpi){
+    .section-hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/mob-hero/mob-dark-bg@2x.jpg);
+    }
+  }
 }
 
-@media screen and (min-resolution: 192dpi){
-  .section-hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/mob-hero/mob-dark-bg@2x.jpg);
-}
+
 /* =========================== 768px =========================== */
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 736px;
+  margin-left: auto;
+  margin-right: auto;
+    width: 768px;
   }
   .navigation {
     padding-top: 0;
@@ -502,8 +508,26 @@ ul {
     display: flex;
     align-items: center;
     gap: 12px;
-
     flex-direction: column;
+  }
+  .title-hl{
+    width: 496px;
+  }
+  .section-hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/tab-hero/Dark-bg.jpg);
+  }
+  @media screen and (min-resolution: 192dpi){
+    .section-hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/tab-hero/Dark-bg@2x.jpg);
+    }
   }
 }
 
@@ -511,7 +535,10 @@ ul {
 
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1128px;
+    
+  margin-left: auto;
+  margin-right: auto;
+    width: 1158px;
   }
   .logol {
     margin-right: 76px;
@@ -519,5 +546,21 @@ ul {
   .contact-ul {
     flex-direction: row;
     gap: 40px;
+  }
+  .section-hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/pc-hero/people-office\ 1.jpg);
+  }
+  @media screen and (min-resolution: 192dpi){
+    .section-hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/pc-hero/people-office\ 1@2x.jpg);
+    }
   }
 }
