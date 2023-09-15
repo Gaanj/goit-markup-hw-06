@@ -14,6 +14,19 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
 }
+p {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h3 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 36px;
+}
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -340,25 +353,74 @@ ul {
   fill: #f4f4fd;
   line-height: 0;
 }
-/*
+
+/* ========================= Section Portfolio ========================= */
+
 .section-lv {
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .portfolio-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .porttfolio-ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+  align-items: center;
 }
 .portfolio-li {
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-li:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .product-box {
+  position: relative;
+  margin: 0 auto;
+  background-color: #bdbdbd;
+  overflow: hidden;
 }
 .overlay {
+  display: none;
 }
 .product-name {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
 }
 .tslv {
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
 }
 .pslv {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-top: 0;
 }
+/*
 .footer-set {
 }
 .footer-container {
@@ -393,6 +455,7 @@ ul {
 }
 .instagf {
 }
+
 .backdrop {
 }
 .is-hidden {
@@ -657,6 +720,13 @@ ul {
     column-gap: 24px;
     row-gap: 64px;
   }
+  .porttfolio-ul{
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+    justify-content: center;
+  }
 }
 
 /* =========================== 1158px =========================== */
@@ -736,5 +806,9 @@ ul {
   }
   .team-li {
     flex-wrap: nowrap;
+  }
+  .section-lv {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
