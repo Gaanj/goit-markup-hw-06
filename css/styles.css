@@ -155,44 +155,44 @@ ul {
 .section-hero {
   margin-top: 0;
   margin-bottom: 0;
-background-color: #2e2f42;
-padding-top: 72px;
-display: flex;
-flex-direction: column;
-align-items: center; 
-text-align: center;
-}
-.hero-container{
-
-  text-align: center; 
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/mob-hero/mob-dark-bg.jpg);
+  padding-top: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .title-hl {
   margin-top: 0;
   margin-bottom: 0;
-  color:  #FFF; 
+  color: #fff;
   font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.72px;
-text-transform: capitalize; 
-margin-bottom: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .button-l {
   width: 169px;
   color: #fff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
-background: var(--IRIS, #4D5AE5);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-padding: 16px 32px;
-border: none;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.64px; 
-margin-bottom: 72px;
+  background: var(--IRIS, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 16px 32px;
+  border: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  margin-bottom: 72px;
 }
 .button-l:hover,
 .button-l:focus {
@@ -457,17 +457,25 @@ margin-bottom: 72px;
 
 @media screen and (min-width: 320px) {
   .container {
-    width: 320  px;
+    width: 320 px;
     padding: 0 16px;
   }
-  .section-hero{
+  .section-hero {
     padding-top: 72px;
   }
-  .title-hl{
-    width: 288px; 
+  .title-hl {
+    width: 288px;
   }
 }
 
+@media screen and (min-resolution: 192dpi){
+  .section-hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/mob-hero/mob-dark-bg@2x.jpg);
+}
 /* =========================== 768px =========================== */
 
 @media screen and (min-width: 768px) {
