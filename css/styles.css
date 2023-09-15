@@ -263,15 +263,16 @@ ul {
   background-color: #f4f4fd;
 }
 .title-hll {
-  color: #2e2f42;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  margin-top: 0;
-  margin-bottom: 72px;
   text-align: center;
+  color:#2E2F42;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize; 
+  margin-bottom: 72px;
+  margin-top: 0;
 }
 .team-li {
   display: flex;
@@ -648,6 +649,13 @@ ul {
     width: 356px;
     font-size: 16px;
   }
+  .team-li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
 }
 
 /* =========================== 1158px =========================== */
@@ -713,5 +721,12 @@ ul {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+  }
+  .section-team{
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .team-li{
+    flex-wrap: nowrap;
   }
 }
