@@ -630,6 +630,9 @@ ul {
         url(../images/hero/tab-dark-bg@2x.jpg);
     }
   }
+  .title-hlll{
+    text-align: start;
+  }
   .features {
     display: flex;
     flex-direction: row;
@@ -713,6 +716,13 @@ ul {
     .astro {
       margin: 24px 99px;
     }
+  }
+  .title-hlll{
+    font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px; 
   }
   .psl {
     width: 264px;
