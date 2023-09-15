@@ -262,13 +262,13 @@ ul {
 }
 .title-hll {
   text-align: center;
-  color:#2E2F42;
+  color: #2e2f42;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
-  text-transform: capitalize; 
+  text-transform: capitalize;
   margin-bottom: 72px;
   margin-top: 0;
 }
@@ -628,7 +628,7 @@ ul {
         url(../images/hero/tab-dark-bg@2x.jpg);
     }
   }
-  .title-hlll{
+  .title-hlll {
     text-align: start;
   }
   .features {
@@ -650,7 +650,7 @@ ul {
     width: 356px;
     font-size: 16px;
   }
-  .team-li{
+  .team-li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -715,12 +715,12 @@ ul {
       margin: 24px 99px;
     }
   }
-  .title-hlll{
+  .title-hlll {
     font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 120% */
-letter-spacing: 0.4px; 
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
   }
   .psl {
     width: 264px;
@@ -730,11 +730,11 @@ letter-spacing: 0.4px;
     line-height: 24px;
     letter-spacing: 0.32px;
   }
-  .section-team{
+  .section-team {
     padding-top: 120px;
     padding-bottom: 120px;
   }
-  .team-li{
+  .team-li {
     flex-wrap: nowrap;
   }
 }
