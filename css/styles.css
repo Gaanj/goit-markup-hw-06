@@ -1062,6 +1062,8 @@ h2 {
     gap: 40px;
   }
   .section-features {
+    align-items: center;
+    display: flex;
     margin-top: 120px;
     margin-bottom: 120px;
   }
