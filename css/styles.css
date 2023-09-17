@@ -144,7 +144,7 @@ h2 {
   display: none;
 }
 .contact-li {
-  font-size: 12px; 
+  font-size: 12px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -176,6 +176,8 @@ h2 {
   align-items: center;
   text-align: center;
   background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
 }
 .title-hl {
   margin-top: 0;
@@ -411,7 +413,7 @@ h2 {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay p {
-    color: #fff;
+  color: #fff;
   padding: 40px 32px 164px 32px;
   margin: 0;
   font-size: 18px;
@@ -1062,10 +1064,10 @@ h2 {
     gap: 40px;
   }
   .section-features {
-    align-items: center;
-    display: flex;
     margin-top: 120px;
     margin-bottom: 120px;
+    align-items: center;
+    display: flex;
   }
   .section-hero {
     padding-top: 120px;
@@ -1075,8 +1077,9 @@ h2 {
       ),
       url(../images/hero/pc-dark-bg.jpg);
   }
-  .button-l {
-    margin-bottom: 120px;
+  .title-hl {
+    margin-left: auto;
+    margin-right: auto;
   }
   @media screen and (min-resolution: 192dpi) {
     .section-hero {
@@ -1168,11 +1171,11 @@ h2 {
     border: 1px solid #4d5ae5;
   }
   .modal-form-input:hover,
-.modal-form-input:focus + .form-number-ico,
-.modal-form-input:hover,
-.modal-form-input:focus + .form-mail-ico,
-.modal-form-input:hover,
-.modal-form-input:focus + .form-name-ico {
-  fill: #4d5ae5;
-}
+  .modal-form-input:focus + .form-number-ico,
+  .modal-form-input:hover,
+  .modal-form-input:focus + .form-mail-ico,
+  .modal-form-input:hover,
+  .modal-form-input:focus + .form-name-ico {
+    fill: #4d5ae5;
+  }
 }
