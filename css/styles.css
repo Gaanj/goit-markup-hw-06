@@ -182,7 +182,6 @@ h2 {
 }
 .title-hl {
   margin-top: 0;
-  margin-bottom: 0;
   color: #fff;
   font-size: 36px;
   font-style: normal;
@@ -395,8 +394,8 @@ h2 {
   margin: 0 auto;
   background-color: #bdbdbd;
   overflow: hidden;
-  width: 288px;
-  height: 280px;
+  max-width: 288px;
+  max-height: 280px;
 }
 .overlay {
   position: absolute;
@@ -1020,8 +1019,8 @@ h2 {
     justify-content: center;
   }
   .product-box {
-    width: 356px;
-    height: 300px;
+    max-width: 356px;
+    max-height: 300px;
   }
   .logo-footer {
     justify-content: start;
@@ -1155,7 +1154,7 @@ h2 {
     padding-bottom: 120px;
   }
   .product-box {
-    width: 360px;
+    max-width: 360px;
     position: relative;
     margin: 0 auto;
     background-color: #bdbdbd;
